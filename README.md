@@ -23,16 +23,17 @@ Code is licensed under the Apache 2.0 license.
 
 Gutenberg Changes
 ====================
+* Changed stylesheet path to css
 * changed the background image to older page image
 * paragraph font changed to Georgia
 * All img are bordered
+* All headers are changed to the same font and color
 * changed letter 1-4 to italic for a more letter feel (1.html)
 * changed the Date to a a larger and red font (2.html)
-* added fig caption to image (3.html)
-* changed some headers to grey and larger font size 
-* paragraph for all three Gutenberg HTML has been changed to the same font
+* added fig caption to image (3.html) 
 * div.c1-c6 was changed to a smaller font and italicied 
 
-Resources
+Reference
 ===================
-*https://www.w3schools.com/howto/howto_css_two_columns.asp
+* https://www.w3schools.com/howto/howto_css_two_columns.asp
+* used html from https://creativecommons.org/choose/results-one?license_code=by&amp;jurisdiction=&amp;version=3.0&amp;lang=en to achieve lisense for footer

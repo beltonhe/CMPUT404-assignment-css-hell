@@ -1,6 +1,7 @@
 html{
     scroll-behavior: smooth;
     scroll-snap-align: center;
+    background-color: gainsboro;
 }
 a:link {
     color:gray;
@@ -16,22 +17,24 @@ a:visited {
     }
 img.image{
     width: 100%;
+    border: solid .5rem gray;
 }
 img.uofa{
     width: 8%;
 }
 h1{
     margin-bottom: .5rem;
-}
-h3{
-    font-size: 2rem;
+    background-color: beige;
+
 }
 body{
     margin-right: 2%;
     margin-left: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
-    font-style: italic;
+}
+p {
+    text-indent: 1em;
 }
 div.nav{
     display: flex;
@@ -46,7 +49,8 @@ div.row{
 div.row1{
     display: table;
     clear: both;
-    background-color: blue;
+    width: 100%;
+
 
 }
 div.rowEd{
@@ -66,33 +70,31 @@ div.columnEd1{
 div.column2{
     float: right;
     width: 67%;
-
 }
 div.column3{
     float: left;
-    width: 50%;
+    width: 40%;
 
 }
 div.column4{
     float: right;
-    width: 50%;
+    width: 60%;
 
 }
 div.columnEd2{
     text-align: left;
 }
-div.skills{
+div.skills, div.course{
     text-align: center;
-    font-style: italic;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
-div.about, div.exp, span.name, div.edu{
+div.about, div.exp, span.name, div.edu, div.wib{
     text-align: left;
-    margin-left: 2rem;
+    margin-left: 3rem;
     margin-right: 1.5rem;
     font-size: 1.5rem;
 }
-div.course{
+footer{
+    font-size: 10px;
     text-align: right;
-    font-size: 1.5rem;
 }
