@@ -1,12 +1,14 @@
 html{
     scroll-behavior: smooth;
     scroll-snap-align: center;
-    background-color: rebeccapurple;
+    background-color: cyan;
 }
 a:link {
-    color:blue;
+    color:gray;
     text-decoration: none;
+    font-style: italic;
     text-align: center;
+    font-size: smaller;
     }
 a:hover {
     color: red
@@ -16,34 +18,44 @@ a:visited {
     }
 img.image{
     width: 120%;
-    border: 10px solid red;
-    margin-left: 7rem;
+    border: solid .5rem gray;
+    margin-right: 3rem;
 }
 img.uofa{
-    width: 8%;
+    width: 10%;
 }
 h1{
     margin-bottom: .5rem;
+    background-color: blue;
 }
 body{
+    margin-right: 2%;
+    margin-left: 2%;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 3em;
-    font-style: italic;
+}
+p {
+    text-indent: 1em;
+    color: red;
 }
 div.nav{
-    display: flex;
-    flex-direction: row;
-    text-align: center;
+    height: 100%;
+    width: 150px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    background-color: black;
+    padding-top: 20px;
 }
 div.row{
     display: table;
     clear: both;
+    margin-left: 12rem;
 }
 div.row1{
     display: table;
     clear: both;
-    background-color: blue;
-    border: solid red 1rem;
+    width: 100%;
 }
 div.rowEd{
     display: table;
@@ -53,48 +65,40 @@ div.rowEd{
 div.column1{
     float: left;
     width: 33%;
-    background-color: orange;
-
+    background-color: grey;
 }
 div.columnEd1{
     float: left;
-    width: 70%;
+    width: 37%;
 }
 div.column2{
     float: right;
     width: 67%;
-
+    text-align: center;
 }
 div.column3{
     float: left;
-    width: 50%;
+    width: 60%;
 
 }
 div.column4{
     float: right;
-    width: 70%;
+    width: 60%;
 
 }
 div.columnEd2{
-    text-align: left;
-}
-div.skills{
     text-align: center;
-    font-style: italic;
-    font-size: 2.5rem;
+}
+div.skills, div.course{
+    text-align: center;
+    font-size: 1.2rem;
 }
 div.about, div.exp, span.name, div.edu, div.wib{
     text-align: left;
-    margin-right: 1.5rem;
+    margin-left: .2rem;
+    margin-right: 1rem;
     font-size: 1.5rem;
     background-color: orange;
-}
-div.course{
-    text-align: right;
-    font-size: 1.5rem;
-}
-p, ul{
-    color: red;
 }
 footer{
     font-size: 10px;

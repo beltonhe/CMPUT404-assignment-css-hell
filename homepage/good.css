@@ -8,6 +8,7 @@ a:link {
     text-decoration: none;
     font-style: italic;
     text-align: center;
+    font-size: smaller;
     }
 a:hover {
     color: red
@@ -16,8 +17,9 @@ a:visited {
     text-decoration: none
     }
 img.image{
-    width: 100%;
+    width: 98%;
     border: solid .5rem gray;
+    margin-right: 3rem;
 }
 img.uofa{
     width: 8%;
@@ -25,7 +27,6 @@ img.uofa{
 h1{
     margin-bottom: .5rem;
     background-color: beige;
-
 }
 body{
     margin-right: 2%;
@@ -37,21 +38,24 @@ p {
     text-indent: 1em;
 }
 div.nav{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: center;
+    height: 100%;
+    width: 220px; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    background-color: lightgrey;
+    overflow-x: hidden;
+    padding-top: 20px;
 }
 div.row{
     display: table;
     clear: both;
+    margin-left: 12rem;
 }
 div.row1{
     display: table;
     clear: both;
     width: 100%;
-
-
 }
 div.rowEd{
     display: table;
@@ -61,7 +65,7 @@ div.rowEd{
 div.column1{
     float: left;
     width: 33%;
-
+    background-color: grey;
 }
 div.columnEd1{
     float: left;
