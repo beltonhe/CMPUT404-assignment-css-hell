@@ -1,0 +1,279 @@
+.c {
+    text-align: center;
+    text-indent: 0%
+    }
+.cb {
+    text-align: center;
+    text-indent: 0%;
+    font-weight: bold
+    }
+.cbs {
+    text-align: center;
+    text-indent: 0%;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    font-size: 70%
+    }
+.errata {
+    color: red;
+    text-decoration: underline
+    }
+.letra {
+    margin: 2% auto 1% auto;
+    text-align: center;
+    text-indent: 0%
+    }
+.nind {
+    text-indent: 0%
+    }
+.r {
+    text-align: right;
+    margin-right: 5%
+    }
+small {
+    font-size: 80%;
+    font-weight: normal
+    }
+hr {
+    width: 90%;
+    margin: 2em auto 2em auto;
+    clear: both;
+    color: black
+    }
+hr.dbl {
+    width: 90%;
+    margin: 0.5% auto 0.5% auto;
+    border: 4px double gray
+    }
+hr.full {
+    width: 50%;
+    margin: 5% auto 5% auto;
+    border: 4px double gray
+    }
+table {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    text-align: left
+    }
+.un {
+    text-decoration: underline;
+    text-indent: 0%;
+    margin: 2% auto 2% 15%
+    }
+.smcap {
+    font-variant: small-caps;
+    font-size: 100%
+    }
+
+.blockquot {
+    margin-top: 2%;
+    margin-bottom: 2%
+    }
+.blockquot2 {
+    margin: 2% 20% 2% 20%
+    }
+.boxx {
+    border: solid 1px black;
+    padding: 1%;
+    margin: 1% auto 3% auto;
+    max-width: 50%
+    }
+.boxxx {
+    border: none;
+    padding: 1%;
+    margin: 1% auto 3% auto;
+    max-width: 50%
+    }
+sub {
+    font-size: 70%;
+    vertical-align: bottom
+    }
+.figcenter {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-indent: 0%
+    }
+.poem {
+    margin-left: 20%;
+    text-indent: 0%;
+    font-size: 0.9em
+    }
+.poem .stanza {
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+.poem span.i0 {
+    display: block;
+    margin-left: 0;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+.poem span.i4 {
+    display: block;
+    margin-left: 2em;
+    padding-left: 3em;
+    text-indent: -3em
+    }
+
+a:visited {
+    color: blue;
+    text-decoration: none
+    }
+a:hover {
+    color: red
+    }
+
+div.c17 {
+    margin-left: 0.7em
+    }
+div.c16 {
+    text-indent: -0.7em
+    }
+div.c15 {
+    display: block;
+    font-size: 1.1em;
+    margin: 1em 0;
+    font-weight: bold
+    }
+div.c14 {
+    margin: 0.83em 0;
+    font-size: 1.1em;
+    text-align: center
+    }
+span.c13 {
+    font-size: smaller
+    }
+div.c12 {
+    display: block;
+    margin: 1em 0
+    }
+div.c11 {
+    display: block;
+    margin-top: 4em
+    }
+table.c10 {
+    padding: 2%;
+    border: 3px dotted gray
+    }
+span.xhtml_big.c9 {
+    font-style: italic
+    }
+hr.c8 {
+    width: 95%
+    }
+hr.c8 {
+    width: 95%
+    }
+hr.c7 {
+    width: 15%
+    }
+p.right {
+    text-align: right;
+    margin-right: 10%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    }
+P.noindent {
+    text-indent: 0;
+    margin-top: 0;
+    margin-bottom: 0
+    }
+/* new/updated tags */
+html {
+    background-image: url("image/oldbookbackground.jpg");
+    background-size: 50%;
+}
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
+    }
+h1, h3 {
+    margin-top: 5%;
+    text-align: center;
+    clear: both;
+    font-weight: bolder;
+    }
+h2, h4, h5, h6{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    text-align: center;
+    clear: both;
+    font-size: 150%;
+    color: rgb(54, 52, 52);
+    font-family: Copperplate, Fantasy;
+    }
+p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+    font-family: 'Georgia', serif;
+    padding-bottom: 1%;
+    }
+p.letter2 {
+    text-align: left;
+    margin-top: 1em;
+    margin-bottom: 1em
+    }
+a:link {
+    color:blue;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    }
+img {
+    border: solid 5px red;
+    padding: 7px;
+    margin: 7px;
+    }
+div.c1, div.c2, div.c3, div.c4, div.c5, div.c6 {
+    text-align: left;
+    font-size: 8pt;
+    font-weight: lighter;
+    font-style: italic;
+    }
+div.c7 {
+    text-align: center;
+}
+div.contents {
+    font-weight: normal;
+    text-align: center;
+    }
+figcaption.caption {
+    text-align: center;
+    font-family: 'Georgia', serif;
+    }
+DIV.book {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify
+    }
+tbody.content {
+    text-align: center;
+}
+p.iletter {
+    font-style: italic;
+}
+i.date{
+    font-size: larger;
+    color: red;
+}
+h2.drac {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+}
+div.cletter {
+    font-style: italic;
+}
+h1.title {
+    font-size: 30pt;
+}
+h1.Auth {
+    font-size: 18pt;
+}

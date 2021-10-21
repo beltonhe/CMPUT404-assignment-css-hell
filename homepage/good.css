@@ -1,0 +1,98 @@
+html{
+    scroll-behavior: smooth;
+    scroll-snap-align: center;
+}
+a:link {
+    color:gray;
+    text-decoration: none;
+    font-style: italic;
+    text-align: center;
+    }
+a:hover {
+    color: red
+    }
+a:visited {
+    text-decoration: none
+    }
+img.image{
+    width: 100%;
+}
+img.uofa{
+    width: 8%;
+}
+h1{
+    margin-bottom: .5rem;
+}
+h3{
+    font-size: 2rem;
+}
+body{
+    margin-right: 2%;
+    margin-left: 2%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    font-style: italic;
+}
+div.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+div.row{
+    display: table;
+    clear: both;
+}
+div.row1{
+    display: table;
+    clear: both;
+    background-color: blue;
+
+}
+div.rowEd{
+    display: table;
+    clear: both;
+
+}
+div.column1{
+    float: left;
+    width: 33%;
+
+}
+div.columnEd1{
+    float: left;
+    width: 37%;
+}
+div.column2{
+    float: right;
+    width: 67%;
+
+}
+div.column3{
+    float: left;
+    width: 50%;
+
+}
+div.column4{
+    float: right;
+    width: 50%;
+
+}
+div.columnEd2{
+    text-align: left;
+}
+div.skills{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.5rem;
+}
+div.about, div.exp, span.name, div.edu{
+    text-align: left;
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    font-size: 1.5rem;
+}
+div.course{
+    text-align: right;
+    font-size: 1.5rem;
+}
